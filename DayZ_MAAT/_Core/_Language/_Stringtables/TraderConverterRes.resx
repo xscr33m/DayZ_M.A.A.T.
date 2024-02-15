@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="de_Canceled" xml:space="preserve">
+    <value>Die Konvertierung wurde abgebrochen!</value>
+  </data>
+  <data name="de_ExistingFile" xml:space="preserve">
+    <value>Die Datei "TraderPlusPriceConfig.json" ist bereits vorhanden. 
+
+Möchtest Du sie überschreiben?</value>
+  </data>
+  <data name="de_LabelNoInput" xml:space="preserve">
+    <value>Keine Datei definiert!</value>
+  </data>
+  <data name="de_LabelStatusConverting" xml:space="preserve">
+    <value>Konvertiere... Bitte warten...</value>
+  </data>
+  <data name="de_LabelStatusErrored" xml:space="preserve">
+    <value>Konvertierung wurde mit Fehlern abgeschlossen. Prüfe das Log!</value>
+  </data>
+  <data name="de_LabelStatusFinished" xml:space="preserve">
+    <value>Konvertierung wurde abgeschlossen!</value>
+  </data>
+  <data name="de_LogConvertError1" xml:space="preserve">
+    <value>[ERROR] &lt;Fehler in Zeile</value>
+  </data>
+  <data name="de_LogConvertError2" xml:space="preserve">
+    <value>Ungültiges Produktformat.&gt;
+</value>
+  </data>
+  <data name="de_LogConvertFatalError" xml:space="preserve">
+    <value>[ERROR] &lt;Fehler beim Konvertieren der Datei:</value>
+  </data>
+  <data name="de_LogConvertFinish" xml:space="preserve">
+    <value>[INFO] &lt;Konvertierung abgeschlossen.&gt;</value>
+  </data>
+  <data name="de_LogConvertLine" xml:space="preserve">
+    <value>[INFO] &lt;Konvertiere Zeile </value>
+  </data>
+  <data name="de_LogIgnoredEmptyLine" xml:space="preserve">
+    <value>[INFO] &lt;Ignorierte Leere Zeile </value>
+  </data>
+  <data name="de_LogIgnoredLine" xml:space="preserve">
+    <value>[INFO] &lt;Ignorierte Zeile </value>
+  </data>
+  <data name="de_LogInitialising" xml:space="preserve">
+    <value>[INFO] &lt;Initialisierung....&gt;</value>
+  </data>
+  <data name="de_LogLoading" xml:space="preserve">
+    <value>[INFO] &lt;Lese Datei....&gt;</value>
+  </data>
+  <data name="de_LogNoInput" xml:space="preserve">
+    <value>[INFO] &lt;Keine Datei definiert.&gt;</value>
+  </data>
+  <data name="de_LogStartConvert" xml:space="preserve">
+    <value>[INFO] &lt;Beginne Konvertierung....&gt;
+</value>
+  </data>
+  <data name="de_LogTotalCategories" xml:space="preserve">
+    <value>[INFO] &lt;Anzahl konvertierte Kategorien:</value>
+  </data>
+  <data name="de_LogTotalError" xml:space="preserve">
+    <value>[ERROR] &lt;Die folgenden Zeilen wurden aufgrund ungültiger Werte nicht konvertiert:&gt;</value>
+  </data>
+  <data name="de_LogTotalErrorHint" xml:space="preserve">
+    <value>[ERROR] &lt;Prüfe die Ursprungsdatei nach den fehlerhaften Zeilen und versuche es erneut.&gt;</value>
+  </data>
+  <data name="de_LogTotalProducts" xml:space="preserve">
+    <value>[INFO] &lt;Anzahl konvertierte Produkte:</value>
+  </data>
+  <data name="en_Canceled" xml:space="preserve">
+    <value>The conversion was canceled!</value>
+  </data>
+  <data name="en_ExistingFile" xml:space="preserve">
+    <value>The "TraderPlusPriceConfig.json" file already exists. 
+
+Would you like to overwrite it?</value>
+  </data>
+  <data name="en_LabelNoInput" xml:space="preserve">
+    <value>No file defined!</value>
+  </data>
+  <data name="en_LabelStatusConverting" xml:space="preserve">
+    <value>Converting... Please Wait...</value>
+  </data>
+  <data name="en_LabelStatusErrored" xml:space="preserve">
+    <value>Conversion was completed with errors. Check the log!</value>
+  </data>
+  <data name="en_LabelStatusFinished" xml:space="preserve">
+    <value>Conversion has been completed!</value>
+  </data>
+  <data name="en_LogConvertError1" xml:space="preserve">
+    <value>[ERROR] &lt;Error in line</value>
+  </data>
+  <data name="en_LogConvertError2" xml:space="preserve">
+    <value>Invalid product format.&gt;
+</value>
+  </data>
+  <data name="en_LogConvertFatalError" xml:space="preserve">
+    <value>[ERROR] &lt;Error while converting the file:</value>
+  </data>
+  <data name="en_LogConvertFinish" xml:space="preserve">
+    <value>[INFO] &lt;Conversion completed.&gt;</value>
+  </data>
+  <data name="en_LogConvertLine" xml:space="preserve">
+    <value>[INFO] &lt;Converting line </value>
+  </data>
+  <data name="en_LogIgnoredEmptyLine" xml:space="preserve">
+    <value>[INFO] &lt;Ignored empty line </value>
+  </data>
+  <data name="en_LogIgnoredLine" xml:space="preserve">
+    <value>[INFO] &lt;Ignored line </value>
+  </data>
+  <data name="en_LogInitialising" xml:space="preserve">
+    <value>[INFO] &lt;Initializing....&gt;</value>
+  </data>
+  <data name="en_LogLoading" xml:space="preserve">
+    <value>[INFO] &lt;Loading File....&gt;</value>
+  </data>
+  <data name="en_LogNoInput" xml:space="preserve">
+    <value>[INFO] &lt;No input file specified.&gt;</value>
+  </data>
+  <data name="en_LogStartConvert" xml:space="preserve">
+    <value>[INFO] &lt;Start Converting....&gt;
+</value>
+  </data>
+  <data name="en_LogTotalCategories" xml:space="preserve">
+    <value>[INFO] &lt;Total categories converted:</value>
+  </data>
+  <data name="en_LogTotalError" xml:space="preserve">
+    <value>[ERROR] &lt;The following lines were not converted due to invalid values:&gt;</value>
+  </data>
+  <data name="en_LogTotalErrorHint" xml:space="preserve">
+    <value>[ERROR] &lt;Check the origin file for the faulty lines to fix and try again.&gt;</value>
+  </data>
+  <data name="en_LogTotalProducts" xml:space="preserve">
+    <value>[INFO] &lt;Total products converted:</value>
+  </data>
+  <data name="fr_Canceled" xml:space="preserve">
+    <value>La conversion a été interrompue !</value>
+  </data>
+  <data name="fr_ExistingFile" xml:space="preserve">
+    <value>Le fichier "TraderPlusPriceConfig.json" existe déjà. 
+
+Tu veux l'écraser ?</value>
+  </data>
+  <data name="fr_LabelNoInput" xml:space="preserve">
+    <value>Aucun fichier défini !</value>
+  </data>
+  <data name="fr_LabelStatusConverting" xml:space="preserve">
+    <value>Conversion... Veuillez patienter...</value>
+  </data>
+  <data name="fr_LabelStatusErrored" xml:space="preserve">
+    <value>La conversion s'est terminée avec des erreurs. Vérifie le journal !</value>
+  </data>
+  <data name="fr_LabelStatusFinished" xml:space="preserve">
+    <value>La conversion est terminée !</value>
+  </data>
+  <data name="fr_LogConvertError1" xml:space="preserve">
+    <value>[ERREUR] &lt;Erreur dans la ligne</value>
+  </data>
+  <data name="fr_LogConvertError2" xml:space="preserve">
+    <value>Format de produit non valide.&gt;
+</value>
+  </data>
+  <data name="fr_LogConvertFatalError" xml:space="preserve">
+    <value>[ERREUR] &lt;Erreur lors de la conversion du fichier :</value>
+  </data>
+  <data name="fr_LogConvertFinish" xml:space="preserve">
+    <value>[INFO] &lt;Conversion achevée&gt;</value>
+  </data>
+  <data name="fr_LogConvertLine" xml:space="preserve">
+    <value>[INFO] &lt;Convertir la ligne </value>
+  </data>
+  <data name="fr_LogIgnoredEmptyLine" xml:space="preserve">
+    <value>[INFO] &lt;Ligne vide ignorée </value>
+  </data>
+  <data name="fr_LogIgnoredLine" xml:space="preserve">
+    <value>[INFO] &lt;Ligne ignorée </value>
+  </data>
+  <data name="fr_LogInitialising" xml:space="preserve">
+    <value>[INFO] &lt;Initialisation....&gt;</value>
+  </data>
+  <data name="fr_LogLoading" xml:space="preserve">
+    <value>[INFO] &lt;Charge du fichier ....&gt;</value>
+  </data>
+  <data name="fr_LogNoInput" xml:space="preserve">
+    <value>[INFO] &lt;Aucun fichier d'entrée n'a été spécifié.&gt;</value>
+  </data>
+  <data name="fr_LogStartConvert" xml:space="preserve">
+    <value>[INFO] &lt;Démarrer la conversion....&gt;
+</value>
+  </data>
+  <data name="fr_LogTotalCategories" xml:space="preserve">
+    <value>[INFO] &lt;Total des catégories converties :</value>
+  </data>
+  <data name="fr_LogTotalError" xml:space="preserve">
+    <value>[ERREUR] &lt;Les lignes suivantes n'ont pas été converties en raison de valeurs non valides:&gt;</value>
+  </data>
+  <data name="fr_LogTotalErrorHint" xml:space="preserve">
+    <value>[ERREUR] &lt;Vérifier le fichier d'origine pour les lignes défectueuses à corriger et réessayer&gt;.</value>
+  </data>
+  <data name="fr_LogTotalProducts" xml:space="preserve">
+    <value>[INFO] &lt;Total des produits convertis :</value>
+  </data>
+</root>

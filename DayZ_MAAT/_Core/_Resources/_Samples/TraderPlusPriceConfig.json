@@ -1,0 +1,22 @@
+{
+  "Version": "2.5",
+  "EnableAutoCalculation": 0,
+  "EnableAutoDestockAtRestart": 0,
+  "EnableDefaultTraderStock": 0,
+  "TraderCategories": [
+    {
+      "CategoryName": "SAMPLE_CATEGORY1",
+      "Products": [
+        "SAMPLE_CLASSNAME1,1,-1,1,5000,0.4",
+        "SAMPLE_CLASSNAME2,1,-1,1,5000,0.4"
+      ]
+    },
+    {
+      "CategoryName": "SAMPLE_CATEGORY2",
+      "Products": [
+        "SAMPLE_CLASSNAME,1,-1,1,5000,0.4",
+        "SAMPLE_CLASSNAME2,1,-1,1,8000,0.6"
+      ]
+    }
+  ]
+}
