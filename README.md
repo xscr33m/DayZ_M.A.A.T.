@@ -55,6 +55,10 @@ If you are interested in contributing to this project or making adjustments, ple
 I look forward to your collaboration!
 
 
+# License
+CC BY-NC-ND 4.0 DEED
+
+[Attribution-NonCommercial-NoDerivs 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
 <!-- Trader, Trader Plus, TraderPlus, Editor, DayZ, Tool, Tools, TraderEditor, Trader Editor, Mod, Mods, Steam, Workshop Server -->
