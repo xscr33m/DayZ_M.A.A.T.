@@ -31,12 +31,6 @@ DayZ Modding and Admin Tools • Supports modders and admins in the creation, co
 - Auto search for updates
 - And much more upcoming!
 
-
-## Sneak-Preview
-
-![Logo](https://cdn.discordapp.com/attachments/1208820983428026388/1208820983809450074/DayZ_M.A.A.T..png?ex=65e4ad45&is=65d23845&hm=bd882d3fbb03fb918e3e958c11b12c2314717edf1e7f77e4a97f4b280febf3ab&)
-
-
 ## Feedback
 
 If you have any feedback, please reach out to me!
